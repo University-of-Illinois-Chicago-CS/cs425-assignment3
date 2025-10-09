@@ -8,7 +8,9 @@ Here is a list of tasks that you need to implement:
 
 ## Task 1
 
-Load the mesh from both image  and .BSQ heightmap files. The latter is essentially a raw dump of Float32Array data (see the starter code). The BSQ files in particular  (i've included two Mnt. Rainier examples) provide a much higher (32-bit) height resolution than images (typically limited to 8-bit), allowing for better image quality. For uploading the mesh data to the GPU, this time you should utilize index and vertex buffers. The use of index buffers avoids the need to duplicate vertices that are shared by multiple triangles. This is important as we will be loading increasingly complex meshes in this assignment, as well as including additional vertex attributes (normals, specifically). As part of task 1, you will also implement pan, rotate, and zoom functionalities using mouse input. As in the last assignment, the user should also be able to control the height of the terrain through a slider interactively.  
+Load the mesh from both image  and .BSQ heightmap files. The latter is essentially a raw dump of Float32Array data (see the starter code). The BSQ files in particular  (i've included two Mnt. Rainier examples) provide a much higher (32-bit) height resolution than images (typically limited to 8-bit), allowing for better image quality. 
+
+For uploading the mesh data to the GPU, this time you should utilize index and vertex buffers (see Lab4 for an example on how to use index buffers). The use of index buffers avoids the need to duplicate vertices that are shared by multiple triangles. This is important as we will be loading increasingly complex meshes in this assignment, as well as including additional vertex attributes (normals, specifically). As part of task 1, you will also implement pan, rotate, and zoom functionalities using mouse input. As in the last assignment, the user should also be able to control the height of the terrain through a slider interactively.  
 
 ## Task 2
 
