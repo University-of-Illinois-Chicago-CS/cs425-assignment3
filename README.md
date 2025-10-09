@@ -20,7 +20,7 @@ Color the mesh by surface normals: Instead of showing the XYZ coordinate in RGB 
 
 ## Task 4
 
-Shade the terrain using the Phong model according to the incident light. You should implement a per-pixel illumination model using a fragment shader. 
+Shade the terrain using the Phong model according to the incident light. You should implement a per-pixel illumination model using a fragment shader. Your UI should include a radio button to switch between Phong shading and showing surface normals (Task 3).
 
 ## Task 5
 
@@ -32,8 +32,8 @@ Switch between a directional (default) or point light via a radio button. If in 
 
 
 ## Grading rubric
-If you complete task 1 only: E
-If you complete tasks 1-2: D
-Tasks 1-3: C
-Tasks 1-4: B
-Tasks 1-5: A (grad students also need to complete task 6 to get A)
+- If you complete task 1 only: E
+- If you complete tasks 1-2: D
+- Tasks 1-3: C
+- Tasks 1-4: B
+- Tasks 1-5: A (grad students also need to complete task 6 to get A)
